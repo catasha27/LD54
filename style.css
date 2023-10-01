@@ -23,6 +23,7 @@ body{
     height: 100vh;
     overflow-y: hidden;
     position: relative;
+    background-color: white;
 }
 
 main{
@@ -40,7 +41,7 @@ img{
 
 #info-container{
     position: fixed;
-    top:520px;
+    bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
