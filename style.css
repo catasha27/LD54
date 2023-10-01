@@ -1,0 +1,90 @@
+/* SETUP */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-y: hidden;
+}
+
+/* UTILITIES */
+
+.hidden{
+    display: none;
+}
+
+/* STYLES */
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    overflow-y: hidden;
+    position: relative;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    min-width: 450px;
+}
+
+#info-container{
+    position: fixed;
+    top:520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#start-btn{
+    font-size: 60px;
+    color:#eae7f6;
+    padding: 12px 18px;
+    background-color:#4f98b1;
+    border: 2px solid;
+    border-radius: 25px;
+    filter: drop-shadow(0 10px 8px #00000019) drop-shadow(0 4px 3px #0000002b);
+}
+
+#start-btn:active{
+    color:#eae7f6;
+    background-color:#826ed2;
+}
+
+#counter{
+    font-size: 100px;
+    color:#4f98b1;
+    pointer-events: none;
+}
+
+svg{
+    width: 400vh;
+    height: 100vh;
+    position: absolute;
+}
+
+.bg_scene{
+    fill:none;
+    stroke:#000000;
+    stroke-width:0.75;
+    stroke-miterlimit:10;
+}
+
+.hidden_obj{
+    fill:#4FA0CA;
+    stroke:#000000;
+    stroke-width:0.5;
+    stroke-miterlimit:10;
+}
